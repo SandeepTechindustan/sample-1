@@ -5,10 +5,10 @@ export default class Welcome extends React.Component {
 		return (
 			<div>
 				<div>
-					<h1>Welcome User</h1>
+					<h1>Welcome {this.props.name}</h1>
 				</div>
 				<div>
-					<p>This is the first page..<br />
+					<p>Name taken here as a Props<br />
 					other components are comming soon....</p>
 				</div>
 			</div>

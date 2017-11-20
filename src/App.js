@@ -1,10 +1,12 @@
 import React from 'react';
+import Welcome from './components/welcome'
+import './style.css'
 
 class App extends React.Component {
    render() {
       return (
          <div>
-            Hello World!!!
+            <Welcome name="Sandeep Singh"/>
          </div>
       );
    }
