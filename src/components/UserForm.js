@@ -1,6 +1,7 @@
 import React from 'react'
 import { Form  } from 'react-bootstrap'
 import InputField from './common/InputField'
+import FormButton from './common/FormButton'
 
 const UserForm = () => {
 
@@ -30,6 +31,13 @@ const UserForm = () => {
 					md={12}
 					id="age"
 					required="true"
+				/>
+
+				<FormButton 
+					title="Login"
+					type="submit"
+					bsStyle="success"
+					id="submitButton"
 				/>
 			</Form>
 		</div>
