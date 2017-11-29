@@ -8,8 +8,7 @@ export default class Welcome extends React.Component {
 					<h1>Welcome {this.props.name}</h1>
 				</div>
 				<div>
-					<p>Name taken here as a Props<br />
-					other components are comming soon....</p>
+					<p>Some Text :) </p>
 				</div>
 			</div>
 			)
