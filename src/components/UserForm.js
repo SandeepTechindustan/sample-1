@@ -33,12 +33,7 @@ const UserForm = () => {
 					required="true"
 				/>
 
-				<FormButton 
-					title="Login"
-					type="submit"
-					bsStyle="success"
-					id="submitButton"
-				/>
+
 			</Form>
 		</div>
 		)
